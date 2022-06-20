@@ -1,5 +1,3 @@
-
-
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
@@ -83,9 +81,7 @@ function generateMarkdown(data) {
   ## Questions
    My GitHub can be found at https://github.com/${data.github}
 
-  E-mail me at ${data.email}
-
-   ${data.questions}
+  For further questions e-mail me at ${data.email}
 `;
 }
 

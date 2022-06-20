@@ -114,21 +114,8 @@ const promptReadme = readmeData => {
             message: 'You can test this application by following these syntaxes.'
         },
                 
-        {
-            type: 'input',
-            name: 'questions',
-            message: 'Where can you be reached for additional questions?'
-        },
-        
     ])
-    // .then(projectData => {
-    //     readmeData.projects.push(projectData);
-    //     if (projectData.confirmAddProject) {
-    //       return promptProject(portfolioData);
-    //     } else {
-    //       return portfolioData;
-    //     }
-    //   });
+
 }
 
 promptUser()
